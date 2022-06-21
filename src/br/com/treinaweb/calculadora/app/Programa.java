@@ -16,7 +16,7 @@ public class Programa {
 		if (calculador != null ) {
 			System.out.println(calculador.Calcular());
 		}else {
-			System.out.println("Calculo invalido");
+			System.out.println("Calculo invalido -1");
 		}
 		
 	}
