@@ -4,8 +4,8 @@ import br.com.treinaweb.calculadora.interfaces.CalculadorMatematico;
 
 public abstract class CalculoMatematico implements CalculadorMatematico {
 
-	private int numero1;
-	private int numero2;
+	protected int numero1;
+	protected int numero2;
 	
 	public CalculoMatematico(int numero1, int numero2) {
 		this.numero1 = numero1;
@@ -24,7 +24,7 @@ public abstract class CalculoMatematico implements CalculadorMatematico {
 		}else {
 			return -1;	
 		}
-		;
+	
 	}
 	
 	protected abstract int doCalclular();
